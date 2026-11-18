@@ -194,7 +194,7 @@ hr.rule{border:none; border-top:1px solid var(--line); margin:44px 0;}
 <div class="layout">
   <nav class="toc">
     <p class="toc-title">目录</p>
-    <ol><li class="lvl2"><a href="#s1">1. 这是什么</a></li><li class="lvl2"><a href="#s2">2. 快速开始</a></li><li class="lvl3"><a href="#s3">2.1 环境要求</a></li><li class="lvl3"><a href="#s4">2.2 安装</a></li><li class="lvl3"><a href="#s5">2.3 配置模型接口</a></li><li class="lvl3"><a href="#s6">2.4 跑第一次审查</a></li><li class="lvl2"><a href="#s7">3. 界面与能力</a></li><li class="lvl2"><a href="#s8">4. 审查流水线</a></li><li class="lvl3"><a href="#s9">4.1 目录约定</a></li><li class="lvl3"><a href="#s10">4.2 六个环节</a></li><li class="lvl3"><a href="#s11">4.3 证据分级</a></li><li class="lvl3"><a href="#s12">4.4 报告结构</a></li><li class="lvl2"><a href="#s13">5. 交付物与版本</a></li><li class="lvl2"><a href="#s14">6. 工具箱（引擎层）</a></li><li class="lvl2"><a href="#s15">7. 提示词库</a></li><li class="lvl2"><a href="#s16">8. 仓库结构</a></li><li class="lvl2"><a href="#s17">9. 配置、数据与隐私</a></li><li class="lvl2"><a href="#s18">10. 开发与构建</a></li><li class="lvl3"><a href="#s19">10.1 源码运行</a></li><li class="lvl3"><a href="#s20">10.2 构建 exe</a></li><li class="lvl3"><a href="#s21">10.3 重新打安装包（发布新版必读）</a></li><li class="lvl3"><a href="#s22">10.4 测试</a></li><li class="lvl2"><a href="#s23">11. 已知限制</a></li><li class="lvl2"><a href="#s24">12. 使用边界</a></li></ol>
+    <ol><li class="lvl2"><a href="#s1">1. 这是什么</a></li><li class="lvl2"><a href="#s2">2. 快速开始</a></li><li class="lvl3"><a href="#s3">2.1 环境要求</a></li><li class="lvl3"><a href="#s4">2.2 安装</a></li><li class="lvl3"><a href="#s5">2.3 配置模型接口</a></li><li class="lvl3"><a href="#s6">2.4 跑第一次审查</a></li><li class="lvl2"><a href="#s7">3. 界面与能力</a></li><li class="lvl2"><a href="#s8">4. 审查流水线</a></li><li class="lvl3"><a href="#s9">4.1 目录约定</a></li><li class="lvl3"><a href="#s10">4.2 六个环节</a></li><li class="lvl3"><a href="#s11">4.3 证据分级</a></li><li class="lvl3"><a href="#s12">4.4 报告结构</a></li><li class="lvl2"><a href="#s13">5. 交付物与版本</a></li><li class="lvl2"><a href="#s14">6. 工具箱（引擎层）</a></li><li class="lvl2"><a href="#s15">7. 提示词库</a></li><li class="lvl2"><a href="#s16">8. 配置、数据与隐私</a></li><li class="lvl2"><a href="#s17">9. 已知限制</a></li><li class="lvl2"><a href="#s18">10. 使用边界</a></li></ol>
   </nav>
   <main>
 <p><strong>最终交付物：<span class="path"><code>output/工程设计AI大模型系统_安装包_v2.2.exe</code></span></strong>（647 MB · Windows 10/11 x64 · 免环境、免管理员）</p>
@@ -207,7 +207,7 @@ hr.rule{border:none; border-top:1px solid var(--line); margin:44px 0;}
 <hr class="rule">
 <h2 id="s2">2. 快速开始</h2>
 <h3 id="s3">2.1 环境要求</h3>
-<div class="table-wrap"><table><thead><tr><th>项</th><th>要求</th></tr></thead><tbody><tr><td>系统</td><td>Windows 10 / 11（x64），<code>MinVersion=10.0</code></td></tr><tr><td>运行环境</td><td>无需安装 Python、Node.js、Office、CAD</td></tr><tr><td>权限</td><td>免管理员（<code>PrivilegesRequired=lowest</code>）</td></tr><tr><td>磁盘</td><td>安装后约 1.8 GB</td></tr><tr><td>网络</td><td>调用大模型 / 视觉接口 / PDF 解析时需联网；DWG 转换与规范判别可离线</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>项</th><th>要求</th></tr></thead><tbody><tr><td>系统</td><td>Windows 10 / 11（x64）</td></tr><tr><td>运行环境</td><td>无需安装 Python、Node.js、Office、CAD</td></tr><tr><td>权限</td><td>普通用户权限即可，无需管理员</td></tr><tr><td>磁盘</td><td>安装后约 1.8 GB</td></tr><tr><td>网络</td><td>调用大模型 / 视觉接口 / PDF 解析时需联网；DWG 转换与规范判别可离线</td></tr></tbody></table></div>
 <h3 id="s4">2.2 安装</h3>
 <ol><li>双击 <code>工程设计AI大模型系统_安装包_v2.2.exe</code>（未做代码签名，若弹出 SmartScreen 提示，选「更多信息 → 仍要运行」）；</li><li>一路 <code>Next</code>（安装向导为英文，脚本未挂中文语言包，不影响使用）；</li><li>默认安装到 <code>%LOCALAPPDATA%\Programs\施工图审查助手</code>，安装目录内含 <code>结构审查工具箱\</code>；</li><li>开始菜单 →「<strong>施工图审查助手</strong>」→「<strong>工程审图智能助理</strong>」启动；安装脚本默认不勾选桌面图标，需要时重新运行安装程序勾选，或手动发送快捷方式。</li></ol>
 <p>安装包校验（可选）：</p>
@@ -216,13 +216,14 @@ hr.rule{border:none; border-top:1px solid var(--line); margin:44px 0;}
 <blockquote><p>安装后有三个名字同时存在：安装包叫「工程设计AI大模型系统」、程序名/卸载项叫「施工图审查助手」、快捷方式沿用旧 exe 名「工程审图智能助理」。三者是同一个系统，窗口标题显示「工程设计AI大模型系统」。</p></blockquote>
 <h3 id="s5">2.3 配置模型接口</h3>
 <p>首次使用需接入一个 OpenAI 兼容接口：</p>
-<ol><li>界面左下角「设置」→「<strong>开发者配置（AI 接口）</strong>」（需开发者密码，见 10.1）；</li><li>填写 <code>base_url</code> / <code>api_key</code> / <code>model</code>；</li><li>默认预置 MiniMax-M3（<code>https://api.minimaxi.com/v1</code>），可改为 DeepSeek、通义、Kimi、vLLM 等任意 OpenAI 协议服务；</li><li>若所用模型支持多模态，可打开 <strong>主模型多模态</strong>（<code>native_vision</code>），此时看图由主模型直接读图，无需另外配置视觉接口；</li><li>配置保存在 <code>%APPDATA%\结构审查助手\config.json</code>，不写入安装目录（安装目录不可写也能正常用）。</li></ol>
+<ol><li>界面左下角「设置」→「<strong>开发者配置（AI 接口）</strong>」（需开发者密码）；</li><li>填写 <code>base_url</code> / <code>api_key</code> / <code>model</code>；</li><li>默认预置 MiniMax-M3（<code>https://api.minimaxi.com/v1</code>），可改为 DeepSeek、通义、Kimi、vLLM 等任意 OpenAI 协议服务；</li><li>若所用模型支持多模态，可打开 <strong>主模型多模态</strong>（<code>native_vision</code>），此时看图由主模型直接读图，无需另外配置视觉接口；</li><li>配置保存在 <code>%APPDATA%\结构审查助手\config.json</code>，不写入安装目录（安装目录不可写也能正常用）。</li></ol>
+<blockquote><p>开发者密码只用于防止误改接口配置，初始值由交付方提供；建议首次部署后自行更换。</p></blockquote>
 <h3 id="s6">2.4 跑第一次审查</h3>
 <ol><li>新建任务（左侧任务栏可并行开多个，互不干扰）；</li><li>把图纸目录或文件拖进输入区（支持文件/文件夹，上传即右侧预览）；</li><li>描述诉求，例如「审查这份结构施工图，重点看配筋与规范强条」；</li><li>观察五步进度条：<strong>识别图纸 → 解析内容 → 结构分析 → 规范核查 → 形成报告</strong>（界面上有预计耗时，异常时可直接点停止，秒级中断）；</li><li>报告生成后，在报告卡片上选择 <code>md / docx / html</code> 导出。</li></ol>
 <hr class="rule">
 <h2 id="s7">3. 界面与能力</h2>
-<div class="table-wrap"><table><thead><tr><th>能力</th><th>说明</th></tr></thead><tbody><tr><td>三栏工作区</td><td>任务列表 / 对话流 / 图纸预览，分界边可拖动并记忆宽度</td></tr><tr><td>多任务并行</td><td>每任务独立 Agent 与控制器，切换任务时输入区状态随动</td></tr><tr><td>秒停</td><td>点 ■ 立即中断流式输出（0.1 s 级），按钮显示「停止中…」后恢复</td></tr><tr><td>上传即预览</td><td>图片/CAD/PDF 即时在右栏渲染，含缩放与 CAD 转换倒计时</td></tr><tr><td>报告导出</td><td><code>md</code>（纯文本）/ <code>docx</code>（Word）/ <code>html</code>，文件名带工程名前缀</td></tr><tr><td>主题</td><td>经典 / 中间调 / 柔和 三套，重启生效</td></tr><tr><td>Web 版</td><td>轻量浏览器界面（<code>python server.py</code> → <code>http://127.0.0.1:8765</code>），作为桌面版的备用形态</td></tr></tbody></table></div>
-<p>安全边界写进了系统提示，属于硬约束：Agent <strong>不得修改、删除任何后端程序与配置文件</strong>，<strong>只审查用户指定范围内的图纸</strong>，超出范围会明确拒绝。</p>
+<div class="table-wrap"><table><thead><tr><th>能力</th><th>说明</th></tr></thead><tbody><tr><td>三栏工作区</td><td>任务列表 / 对话流 / 图纸预览，分界边可拖动并记忆宽度</td></tr><tr><td>多任务并行</td><td>每任务独立 Agent 与控制器，切换任务时输入区状态随动</td></tr><tr><td>秒停</td><td>点 ■ 立即中断流式输出（0.1 s 级），按钮显示「停止中…」后恢复</td></tr><tr><td>上传即预览</td><td>图片/CAD/PDF 即时在右栏渲染，含缩放与 CAD 转换倒计时</td></tr><tr><td>报告导出</td><td><code>md</code>（纯文本）/ <code>docx</code>（Word）/ <code>html</code>，文件名带工程名前缀</td></tr><tr><td>主题</td><td>经典 / 中间调 / 柔和 三套，重启生效</td></tr><tr><td>Web 版</td><td>轻量浏览器界面（启动后浏览器访问 <code>http://127.0.0.1:8765</code>），作为桌面版的备用形态</td></tr></tbody></table></div>
+<p>安全边界是硬约束：Agent <strong>不得修改、删除任何后端程序与配置文件</strong>，<strong>只审查用户指定范围内的图纸</strong>，超出范围会明确拒绝。</p>
 <hr class="rule">
 <h2 id="s8">4. 审查流水线</h2>
 <h3 id="s9">4.1 目录约定</h3>
@@ -232,10 +233,10 @@ hr.rule{border:none; border-top:1px solid var(--line); margin:44px 0;}
 ├─ 设计pdf\         ← 出图 PDF
 └─ 计算书\          ← doc / docx</code></pre></div>
 <h3 id="s10">4.2 六个环节</h3>
-<div class="table-wrap"><table><thead><tr><th>步骤</th><th>做什么</th><th>关键点</th></tr></thead><tbody><tr><td>0 盘点</td><td>核对图纸/PDF/计算书是否齐全</td><td>缺件直接写进报告的「符合性审查」</td></tr><tr><td>1 转换</td><td>DWG → DXF；PDF → 文字层</td><td>优先 ODA File Converter，失败回退内置 LibreDWG</td></tr><tr><td>2 提取</td><td>产出 <code>.cad.json</code> + <code>.cad.md</code></td><td>先读 md 建立全局认知，再查 json 取精确值；&gt;10 MB 的 DXF 用 <code>dxf_text_extract</code></td></tr><tr><td>3 看图</td><td>渲染 PNG/PDF 后读图</td><td>主模型多模态用 <code>view_image</code>，否则用独立视觉接口</td></tr><tr><td>4 判别</td><td>构件参数 → GB 50010 合规检查</td><td>输出 PASS / FAIL / MANUAL_REVIEW，覆盖 498 条、100%</td></tr><tr><td>5 成文</td><td>汇总为审查意见</td><td>强条置顶，按 A/B/C 分级，附修改要求</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>步骤</th><th>做什么</th><th>关键点</th></tr></thead><tbody><tr><td>0 盘点</td><td>核对图纸/PDF/计算书是否齐全</td><td>缺件直接写进报告的「符合性审查」</td></tr><tr><td>1 转换</td><td>DWG → DXF；PDF → 文字层</td><td>优先 ODA File Converter，失败回退内置 LibreDWG</td></tr><tr><td>2 提取</td><td>产出 <code>.cad.json</code> + <code>.cad.md</code></td><td>先读 md 建立全局认知，再查 json 取精确值；&gt;10 MB 的 DXF 用 <code>dxf_text_extract</code></td></tr><tr><td>3 看图</td><td>渲染 PNG/PDF 后读图</td><td>主模型多模态直读，否则用独立视觉接口</td></tr><tr><td>4 判别</td><td>构件参数 → GB 50010 合规检查</td><td>输出 PASS / FAIL / MANUAL_REVIEW，覆盖 498 条、100%</td></tr><tr><td>5 成文</td><td>汇总为审查意见</td><td>强条置顶，按 A/B/C 分级，附修改要求</td></tr></tbody></table></div>
 <p><strong>转换质量判据</strong>：ODA 生效时结构化文字可靠，可直接采用；若回退到 LibreDWG，转出的 DXF 异常小（通常 &lt; 2 MB）或出现明显不属于本图的词组，说明文字可能被错误重组 —— 此时改走看图路径，并以看图结果为准。</p>
 <p><strong>PDF 读法</strong>：优先读文字层；栅格化 PDF（无文字层）才走看图转录，并按 B 级标注、提示关键数值人工复核。</p>
-<figure class="gantt"><div class="g-head"><p class="g-title">一次审查的时间线</p><p class="g-sub">界面上五步进度条 · 数据取自 <code>gui_app_v2.py:1357</code> 的 CHAIN_ETA</p></div><div class="g-row g-scale"><div class="g-name"></div><div class="g-track"><span style="left:0">0</span><span style="left:24.49%;transform:translateX(-50%)">60</span><span style="left:48.98%;transform:translateX(-50%)">120</span><span style="left:73.47%;transform:translateX(-50%)">180</span><span style="left:97.96%;transform:translateX(-50%)">240</span></div><div class="g-val">秒</div></div><div class="g-row"><div class="g-name">识别图纸</div><div class="g-track"><div class="g-bar" style="left:0.00%;width:48.98%"><i style="width:25.0%"></i></div></div><div class="g-val">30–120 s</div></div><div class="g-row"><div class="g-name">解析内容</div><div class="g-track"><div class="g-bar" style="left:48.98%;width:8.16%"><i style="width:25.0%"></i></div></div><div class="g-val">5–20 s</div></div><div class="g-row"><div class="g-name">结构分析</div><div class="g-track"><div class="g-bar" style="left:57.14%;width:12.24%"><i style="width:33.3%"></i></div></div><div class="g-val">10–30 s</div></div><div class="g-row"><div class="g-name">规范核查</div><div class="g-track"><div class="g-bar" style="left:69.39%;width:6.12%"><i style="width:33.3%"></i></div></div><div class="g-val">5–15 s</div></div><div class="g-row"><div class="g-name">形成报告</div><div class="g-track"><div class="g-bar g-last" style="left:75.51%;width:24.49%"><i style="width:33.3%"></i></div></div><div class="g-val">20–60 s</div></div><div class="g-row g-total"><div class="g-name">合计</div><div class="g-track"><div class="g-bar g-bar-total" style="left:0;width:100%"></div></div><div class="g-val">70–245 s</div></div><div class="g-legend"><span><i class="lg-solid"></i>最短耗时</span><span><i class="lg-pale"></i>最长耗时</span><span class="lg-note">总计 70 s – 245 s（1.2 – 4.1 分钟）</span></div><p class="g-note">条长按该步<b>最长</b>耗时绘制，深色段为其<b>最短</b>耗时——一路顺利时，在深色段末端就能进入下一步。与 4.2 表的对应关系：识别图纸 ≈ 0 盘点 + 1 转换；解析内容 ≈ 2 提取；结构分析 ≈ 3 看图；规范核查 ≈ 4 判别；形成报告 ≈ 5 成文。</p></figure>
+<figure class="gantt"><div class="g-head"><p class="g-title">一次审查的时间线</p><p class="g-sub">界面上五步进度条 · 预计耗时</p></div><div class="g-row g-scale"><div class="g-name"></div><div class="g-track"><span style="left:0">0</span><span style="left:24.49%;transform:translateX(-50%)">60</span><span style="left:48.98%;transform:translateX(-50%)">120</span><span style="left:73.47%;transform:translateX(-50%)">180</span><span style="left:97.96%;transform:translateX(-50%)">240</span></div><div class="g-val">秒</div></div><div class="g-row"><div class="g-name">识别图纸</div><div class="g-track"><div class="g-bar" style="left:0.00%;width:48.98%"><i style="width:25.0%"></i></div></div><div class="g-val">30–120 s</div></div><div class="g-row"><div class="g-name">解析内容</div><div class="g-track"><div class="g-bar" style="left:48.98%;width:8.16%"><i style="width:25.0%"></i></div></div><div class="g-val">5–20 s</div></div><div class="g-row"><div class="g-name">结构分析</div><div class="g-track"><div class="g-bar" style="left:57.14%;width:12.24%"><i style="width:33.3%"></i></div></div><div class="g-val">10–30 s</div></div><div class="g-row"><div class="g-name">规范核查</div><div class="g-track"><div class="g-bar" style="left:69.39%;width:6.12%"><i style="width:33.3%"></i></div></div><div class="g-val">5–15 s</div></div><div class="g-row"><div class="g-name">形成报告</div><div class="g-track"><div class="g-bar g-last" style="left:75.51%;width:24.49%"><i style="width:33.3%"></i></div></div><div class="g-val">20–60 s</div></div><div class="g-row g-total"><div class="g-name">合计</div><div class="g-track"><div class="g-bar g-bar-total" style="left:0;width:100%"></div></div><div class="g-val">70–245 s</div></div><div class="g-legend"><span><i class="lg-solid"></i>最短耗时</span><span><i class="lg-pale"></i>最长耗时</span><span class="lg-note">总计 70 s – 245 s（1.2 – 4.1 分钟）</span></div><p class="g-note">条长按该步<b>最长</b>耗时绘制，深色段为其<b>最短</b>耗时——一路顺利时，在深色段末端就能进入下一步。与 4.2 表的对应关系：识别图纸 ≈ 0 盘点 + 1 转换；解析内容 ≈ 2 提取；结构分析 ≈ 3 看图；规范核查 ≈ 4 判别；形成报告 ≈ 5 成文。</p></figure>
 <h3 id="s11">4.3 证据分级</h3>
 <div class="table-wrap"><table><thead><tr><th>等级</th><th>来源</th><th>标注要求</th></tr></thead><tbody><tr><td>A</td><td>结构化文字提取（DXF 实体、PDF 文字层）</td><td>默认不标注，视为可信</td></tr><tr><td>B</td><td>看图转录</td><td>必须标「（视读）」</td></tr><tr><td>C</td><td>由 A/B 推算</td><td>标「（推算）」并附算式</td></tr><tr><td>D</td><td>无法确认</td><td>列入文末清单，不臆造</td></tr></tbody></table></div>
 <p>铁律：<strong>文字看提取，图形看视觉；两者冲突时，精确文字永远以结构化提取为准。</strong> 严禁仅凭看图读到的文字差异就判定「图纸来自不同项目」「工程名称不一致」。</p>
@@ -245,79 +246,31 @@ hr.rule{border:none; border-top:1px solid var(--line); margin:44px 0;}
 <p>口吻对标正式《施工图设计文件审查意见表》：专业、简洁、命令式，不寒暄、不模糊。</p>
 <hr class="rule">
 <h2 id="s13">5. 交付物与版本</h2>
-<div class="table-wrap"><table><thead><tr><th>安装包</th><th>体积</th><th>打包时间</th><th>安装脚本</th><th>主程序</th><th>说明</th></tr></thead><tbody><tr><td><code>…_v2.0.exe</code></td><td>317.7 MB</td><td>2026-08-12</td><td>Inno Setup</td><td>工程设计AI大模型系统.exe</td><td>首个安装包</td></tr><tr><td><code>…_v2.1.exe</code></td><td>317.8 MB</td><td>2026-08-14</td><td><span class="path"><code>审查助手/installer_v2.iss</code></span></td><td>工程设计AI大模型系统.exe (2.1.0)</td><td>含 8/13 系列改动（主题、报告规范、分界边拖动、秒停）</td></tr><tr><td><strong><code>…_v2.2.exe</code></strong></td><td><strong>647.4 MB</strong></td><td><strong>2026-08-19</strong></td><td><span class="path"><code>installer.iss</code></span></td><td>工程审图智能助理.exe</td><td><strong>当前交付版</strong>：随包带 ODA File Converter 与 Infinity-PDF-Parser，新电脑装完即具备完整工具链</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>安装包</th><th>体积</th><th>打包时间</th><th>主程序</th><th>说明</th></tr></thead><tbody><tr><td><code>…_v2.0.exe</code></td><td>317.7 MB</td><td>2026-08-12</td><td>工程设计AI大模型系统.exe</td><td>首个安装包</td></tr><tr><td><code>…_v2.1.exe</code></td><td>317.8 MB</td><td>2026-08-14</td><td>工程设计AI大模型系统.exe (2.1.0)</td><td>含 8/13 系列改动（主题、报告规范、分界边拖动、秒停）</td></tr><tr><td><strong><code>…_v2.2.exe</code></strong></td><td><strong>647.4 MB</strong></td><td><strong>2026-08-19</strong></td><td>工程审图智能助理.exe</td><td><strong>当前交付版</strong>：随包带 ODA File Converter 与 Infinity-PDF-Parser，新电脑装完即具备完整工具链</td></tr></tbody></table></div>
 <p>v2.2 比 v2.1 多出来的 ~330 MB，主要就是 <code>tools\Infinity-PDF-Parser</code>（约 883 MB 的 PDF 解析引擎，压缩后入包）与 <code>tools\ODA_extract</code>（约 69 MB）。</p>
 <p><strong>关于版本时间线（重要）</strong></p>
-<ul><li>v2.2 安装包内的主程序 <code>工程审图智能助理.exe</code> 构建于 2026-08-10，是改名前的产物（窗口内品牌已更新，但文件名未换）；</li><li>仓库内 <span class="path">审查助手/dist</span> 下的 <code>工程设计AI大模型系统.exe</code> 构建于 <strong>2026-10-12</strong>，晚于 v2.2 打包时间，包含 10 月的新增能力（主模型多模态直读 <code>view_image</code>、提示词库自动加载流程，并配套 13 项测试）；</li><li>因此：<strong>要交付 10 月后的功能，需要重新打一次安装包</strong>，步骤见 10.3。</li></ul>
+<ul><li>v2.2 安装包内的主程序 <code>工程审图智能助理.exe</code> 构建于 2026-08-10，是改名前的产物（窗口内品牌已更新，但文件名未换）；</li><li>项目目录中另有 <strong>2026-10-12</strong> 构建的新版主程序 <code>工程设计AI大模型系统.exe</code>，晚于 v2.2 打包时间，包含 10 月的新增能力（主模型多模态直读、提示词库自动加载流程）；</li><li>因此：<strong>要交付 10 月后的功能，需要重新打一次安装包</strong>，打包与发布由维护方负责；使用方安装现有 v2.2 即可。</li></ul>
 <hr class="rule">
 <h2 id="s14">6. 工具箱（引擎层）</h2>
 <p><code>tools/</code> 是系统的手脚，全部随包分发、免安装环境：</p>
 <div class="table-wrap"><table><thead><tr><th>程序</th><th>作用</th><th>联网</th></tr></thead><tbody><tr><td><code>gb50010check.exe</code></td><td>GB 50010-2010(2015) 构件合规判别，498 条条文全覆盖（<code>--schema</code> 看输入格式，<code>--coverage</code> 自检）</td><td>否</td></tr><tr><td><code>DWG2DXF.exe</code></td><td>DWG → DXF，优先 ODA File Converter，回退内置 LibreDWG</td><td>否</td></tr><tr><td><code>DWG-DXF-Extractor.exe</code></td><td>提取图层/实体/文字 → <code>.cad.json</code> + <code>.cad.md</code></td><td>否</td></tr><tr><td><code>dwg2image.exe</code></td><td>DWG/DXF 渲染为 PNG/PDF，多图自动切分（<code>_图1</code>/<code>_图2</code>），白底</td><td>否</td></tr><tr><td><code>dxf_text_extract.exe</code></td><td>大 DXF 的文字兜底提取（ezdxf 直读 TEXT/MTEXT）</td><td>否</td></tr><tr><td><code>ai_vision_reader.exe</code></td><td>独立视觉接口读图，<code>--set-key</code> 配置后使用</td><td>是</td></tr><tr><td><code>fix_dxf_encoding.exe</code></td><td>修复 DXF 编码/乱码</td><td>否</td></tr><tr><td><code>加速流水线\</code></td><td>一键批量：转换 → 修复 → 提取 → PDF 解析 → 渲染；幂等、失败写 <code>fail.log</code>、按体积自动降 DPI、支持 <code>-ImgConcurrency</code></td><td>部分</td></tr><tr><td><code>Infinity-PDF-Parser\</code></td><td>PDF → Markdown 解析服务客户端，需自备解析服务器地址</td><td>是</td></tr><tr><td><code>ODA_extract\</code></td><td>ODA File Converter 绿色版（含 Qt DLL 与 .tx 插件），供 <code>DWG2DXF</code> 调用</td><td>否</td></tr></tbody></table></div>
-<p>单个程序也可以脱离系统单独用，用法见 <span class="path"><code>使用说明.txt</code></span>；面向 AI 的完整调用规范见 <span class="path"><code>AI调用参考.txt</code></span>（该文件会被注入系统提示，是 Agent 的行为依据）。</p>
+<p>单个程序也可以脱离系统单独用，用法见 <span class="path"><code>使用说明.txt</code></span>；面向 AI 的完整调用规范见 <span class="path"><code>AI调用参考.txt</code></span>（Agent 执行审查流程时以它为依据）。</p>
+<blockquote><p>不装安装包、直接拷贝整个目录使用也可以：保持 <code>启动.exe</code> 与 <code>tools\</code> 同层 —— 程序按相对路径查找工具，单独移动其中任何一个都会导致工具全部失效。</p></blockquote>
 <hr class="rule">
 <h2 id="s15">7. 提示词库</h2>
 <p><span class="path"><code>提示词库/</code></span> 收录「图纸内容描述」类专业提示词，用于让模型按固定口径逐图转录：</p>
 <div class="table-wrap"><table><thead><tr><th>编号</th><th>文件</th><th>专业</th><th>版本</th></tr></thead><tbody><tr><td>00</td><td><span class="path">库索引与使用规则</span></td><td>入口，互斥选择铁律</td><td>—</td></tr><tr><td>01</td><td><span class="path">排水工程提示词</span></td><td>市政给排水施工图</td><td>v6</td></tr><tr><td>02</td><td><span class="path">结构工程提示词</span></td><td>结构施工图（含水工结构）</td><td>v5</td></tr></tbody></table></div>
 <p>规则很简单也很难绕开：<strong>一次任务只加载一个提示词</strong>，命中判定特征 ≥3 条才选定，无法唯一判定就停下来问用户，禁止拼接混用。</p>
-<p>配套的 <code>校验器/*.py</code> 需要本机 Python + ezdxf，打包版未集成 —— 跑不起来时如实跳过，不得虚构校验结果；<code>权威数据模板/*.json</code> 只是格式示例，<strong>禁止直接复用到别的工程</strong>（会造成系统性错配 FAIL）。</p>
+<p>配套的校验脚本需要本机 Python 环境，安装包未集成 —— 跑不起来时如实跳过，不得虚构校验结果；<code>权威数据模板/*.json</code> 只是格式示例，<strong>禁止直接复用到别的工程</strong>（会造成系统性错配 FAIL）。</p>
 <hr class="rule">
-<h2 id="s16">8. 仓库结构</h2>
-<div class="code-block" data-lang="text"><pre><code>结构审查工具箱\
-├─ output\                                  ← 交付产物（.gitignore 已忽略）
-│   ├─ 工程设计AI大模型系统_安装包_v2.2.exe    ★ 最终交付
-│   └─ …_v2.1.exe / …_v2.0.exe               历史版本
-├─ installer.iss                            ← v2.2 的 Inno Setup 脚本
-├─ 审查助手\                                 ← 系统本体
-│   ├─ gui_app_v2.py                        ← 桌面版入口（v2 三栏界面）
-│   ├─ agent.py                             ← ReAct 循环 + 系统提示（审查规则/报告规范）
-│   ├─ tools.py                             ← 13 个工具的实现与文件白名单
-│   ├─ llm.py                               ← OpenAI 兼容客户端（流式/秒停）
-│   ├─ config.py                            ← 配置读写（%APPDATA%\结构审查助手）
-│   ├─ server.py + web\                     ← Web 版（原生 HTML/CSS/JS）
-│   ├─ build_desktop.spec                   ← PyInstaller 打包配置
-│   ├─ dist\                                ← 已构建 exe（已忽略）
-│   ├─ test_*.py                            ← 回归测试
-│   └─ 方案/清单/指南 *.md                   ← 设计与交付记录
-├─ 提示词库\                                 ← 专业看图提示词 + 校验器
-├─ tools\                                   ← 引擎（exe 与第三方大目录，部分已忽略）
-├─ AI调用参考.txt                            ← 给 AI 的权威流程文档
-├─ 使用说明.txt / 部署说明.txt                ← 随包分发的用户文档
-└─ 启动.exe                                 ← Web 版启动器</code></pre></div>
-<p><code>.gitignore</code> 的原则是「只进源码与文档」：<code>output/</code>、<code>*.exe</code>、<code>dist/</code>、<code>build/</code>、<code>tools/Infinity-PDF-Parser/</code>、<code>tools/ODA_extract/</code>、<code>config.json</code>、<code>sessions/</code> 都不入库。克隆仓库后需要自备这两个第三方目录、自行构建 exe，才能复现安装包。</p>
-<blockquote><p>若不用安装包、直接拷贝整个目录使用，务必保持 <code>启动.exe</code> 与 <code>tools\</code> 同层 —— 程序按相对路径查找工具，单独移动其中任何一个都会导致工具全部失效。</p></blockquote>
-<hr class="rule">
-<h2 id="s17">9. 配置、数据与隐私</h2>
+<h2 id="s16">8. 配置、数据与隐私</h2>
 <div class="table-wrap"><table><thead><tr><th>内容</th><th>位置</th></tr></thead><tbody><tr><td>配置文件</td><td><code>%APPDATA%\结构审查助手\config.json</code></td></tr><tr><td>会话历史</td><td><code>%APPDATA%\结构审查助手\sessions\</code></td></tr><tr><td>安装目录</td><td><code>%LOCALAPPDATA%\Programs\施工图审查助手\结构审查工具箱\</code></td></tr></tbody></table></div>
-<ul><li>配置文件关键项：<code>provider</code> / <code>base_url</code> / <code>api_key</code> / <code>model</code> / <code>temperature</code> / <code>max_turns</code>、视觉接口 <code>vision_*</code>、<code>native_vision</code>、<code>theme</code>、<code>preview_width</code>、<code>sidebar_visible</code>；</li><li>若本机装过 <code>ai_vision_reader</code>，首次运行会自动复用其配置，无需重复填写；</li><li><strong>数据不出本地</strong>：图纸、提取结果、会话均在本机；只有送入模型的文本/图片会发往你配置的接口；</li><li>卸载程序只清理安装目录与 <code>dist\sessions</code>、<code>dist\config.json</code>，<strong>不会删除</strong> <code>%APPDATA%\结构审查助手</code> —— 需要彻底清除时请手动删除该目录。</li></ul>
+<ul><li>配置文件关键项：<code>provider</code> / <code>base_url</code> / <code>api_key</code> / <code>model</code> / <code>temperature</code> / <code>max_turns</code>，以及视觉接口 <code>vision_*</code> 与主模型多模态开关 <code>native_vision</code>；</li><li>若本机装过 <code>ai_vision_reader</code>，首次运行会自动复用其配置，无需重复填写；</li><li><strong>数据不出本地</strong>：图纸、提取结果、会话均在本机；只有送入模型的文本/图片会发往你配置的接口；</li><li>卸载程序只清理安装目录内的会话记录与配置文件，<strong>不会删除</strong> <code>%APPDATA%\结构审查助手</code> —— 需要彻底清除时请手动删除该目录。</li></ul>
 <hr class="rule">
-<h2 id="s18">10. 开发与构建</h2>
-<h3 id="s19">10.1 源码运行</h3>
-<div class="code-block" data-lang="bash"><pre><code># 桌面版（v2 界面，推荐）
-python gui_app_v2.py        # 依赖：tkinterdnd2、Pillow、PyMuPDF(fitz)、python-docx
-
-# Web 版
-python server.py            # 零第三方依赖，浏览器打开 http://127.0.0.1:8765</code></pre></div>
-<p>GUI 采用「prompt 驱动的 JSON-action 循环」（ReAct 风格），不依赖特定厂商的 function-calling，因此任何 OpenAI 兼容聊天模型都能驱动。</p>
-<blockquote><p><strong>开发者密码</strong>：AI 接口配置藏在「开发者配置」里，口令写死在 <code>gui_app_v2.py:2363</code> 的 <code>DEV_PASSWORD</code>。它只是本地防误触的门槛，不是安全机制；分发前请把它换成自己的值，并且不要把含 Key 的 <code>config.json</code> 一起打包。</p></blockquote>
-<h3 id="s20">10.2 构建 exe</h3>
-<div class="code-block" data-lang="bash"><pre><code>cd 审查助手
-python -m PyInstaller build_desktop.spec --distpath dist --workpath build</code></pre></div>
-<p>三条踩过的坑（详见 <span class="path"><code>审查助手/打包exe必备文件清单.md</code></span>）：</p>
-<ol><li>入口必须是 <code>gui_app_v2.py</code>（<code>审查助手_桌面版.spec</code> 是 v1 入口，别混用）；</li><li><code>excludes</code> 严禁包含 <code>lxml</code>（docx 导出依赖它），<code>hiddenimports</code> 必须有 <code>pkg_resources</code>、<code>setuptools</code>、<code>jaraco.*</code>；</li><li>只对 4 个依赖做 <code>collect_all</code>（tkinterdnd2 / PIL / fitz / docx），否则 Analysis 会因拉入整个环境的依赖图而卡死几十分钟。</li></ol>
-<h3 id="s21">10.3 重新打安装包（发布新版必读）</h3>
-<p>当前 <code>installer.iss</code> 里的 <code>SrcRoot</code> 仍指向已失效的旧路径（<code>D:\kimi\…</code>），且 <code>OutputBaseFilename</code> 固定为 <code>…_v2.2</code>：</p>
-<ol><li>改 <code>SrcRoot</code> 为本机仓库根目录（如 <code>E:\结构审查工具箱</code>）；</li><li>把 <code>[Icons]</code>、<code>[Run]</code> 的目标由 <code>工程审图智能助理.exe</code> 改为 <code>工程设计AI大模型系统.exe</code>（否则快捷方式仍指向 8 月的旧程序）；</li><li>把 <code>OutputBaseFilename</code> 顺延为 <code>…_v2.3</code>（同名会直接覆盖 v2.2）；</li><li>用 Inno Setup 6 编译 <code>installer.iss</code>，产物落在 <code>output\</code>；</li><li>建议显式设置 <code>AppId</code> 并长期保持不变，否则改名会产生两条独立的卸载记录。</li></ol>
-<h3 id="s22">10.4 测试</h3>
-<div class="code-block" data-lang="bash"><pre><code>python 审查助手/test_instant_stop.py     # 秒停：流式/非流式/llm/agent/正常流式 5 项
-python 审查助手/test_integration.py      # Agent 全链路
-python 审查助手/test_concurrent.py       # 多任务并发
-python 审查助手/test_view_image.py       # 多模态直读（10 月新增，13 项）
-python 审查助手/test_whitelist_token.py  # 文件白名单</code></pre></div>
+<h2 id="s17">9. 已知限制</h2>
+<ul><li><strong>高版本 DWG</strong>：ODA 不可用而回退 LibreDWG 时，文字可能被错误重组（判据见 4.2），需改走看图；</li><li><strong>扫描件 PDF</strong>：无文字层，只能看图转录，关键数值建议人工复核；</li><li><strong>PDF 解析</strong>：<code>Infinity-PDF-Parser</code> 依赖外部解析服务器，未配置时该环节不可用，不影响 DWG 路径；</li><li><strong>提示词库校验器</strong>：需要本机 Python + ezdxf，安装包内没有，相关校验会跳过并说明；</li><li><strong>杀毒软件</strong>：打包后的程序偶发误报，加白名单即可；</li><li><strong>模型依赖</strong>：审查质量与所用模型强相关，弱模型可能不遵守工具调用格式或漏读证据等级。</li></ul>
 <hr class="rule">
-<h2 id="s23">11. 已知限制</h2>
-<ul><li><strong>高版本 DWG</strong>：ODA 不可用而回退 LibreDWG 时，文字可能被错误重组（判据见 4.2），需改走看图；</li><li><strong>扫描件 PDF</strong>：无文字层，只能看图转录，关键数值建议人工复核；</li><li><strong>PDF 解析</strong>：<code>Infinity-PDF-Parser</code> 依赖外部解析服务器，未配置时该环节不可用，不影响 DWG 路径；</li><li><strong>提示词库校验器</strong>：需要本机 Python + ezdxf，安装包内没有，相关校验会跳过并说明；</li><li><strong>杀毒软件</strong>：PyInstaller 打包的程序偶发误报，加白名单即可；</li><li><strong>模型依赖</strong>：审查质量与所用模型强相关，弱模型可能不遵守工具调用格式或漏读证据等级。</li></ul>
-<hr class="rule">
-<h2 id="s24">12. 使用边界</h2>
+<h2 id="s18">10. 使用边界</h2>
 <p>本系统输出的是<strong>辅助审查意见</strong>，不是法定审查结论。所有问题清单、规范引用与修改建议都应由具备相应资格的注册工程师复核后使用；因直接采信 AI 输出造成的设计变更、工期或造价影响，由使用方自行承担。</p>
 <p>模型会错、会漏、会过度自信 —— 请始终按第 4.3 节的证据等级去核对每一条关键结论。</p>
   </main>
