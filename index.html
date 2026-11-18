@@ -78,6 +78,10 @@ code{
   font-family:"Cascadia Code","JetBrains Mono",Consolas,"SFMono-Regular",Menlo,monospace;
   font-size:.88em;
 }
+td code, td .path{
+  background:#f7f9fb; border:1px solid var(--line); border-radius:5px;
+  padding:1px 6px; white-space:nowrap; font-size:.86em;
+}
 .path{
   display:inline; background:#f3f5f8; border:1px dashed #cdd4dc; border-radius:5px;
   padding:1px 6px; color:#334155; font-size:.87em;
@@ -186,7 +190,7 @@ hr.rule{border:none; border-top:1px solid var(--line); margin:44px 0;}
     <div class="meta">
       <span>交付版本 <b>v2.2</b></span>
       <span>文档日期 <b>2026-11-18</b></span>
-      <span>对应提交 <b>05d4abc</b></span>
+      <span>对应提交 <b>3cf2546</b></span>
       <span>单文件 · 离线可读</span>
     </div>
   </div>
@@ -246,7 +250,7 @@ hr.rule{border:none; border-top:1px solid var(--line); margin:44px 0;}
 <p>口吻对标正式《施工图设计文件审查意见表》：专业、简洁、命令式，不寒暄、不模糊。</p>
 <hr class="rule">
 <h2 id="s13">5. 交付物与版本</h2>
-<div class="table-wrap"><table><thead><tr><th>安装包</th><th>体积</th><th>打包时间</th><th>主程序</th><th>说明</th></tr></thead><tbody><tr><td><code>…_v2.0.exe</code></td><td>317.7 MB</td><td>2026-08-12</td><td>工程设计AI大模型系统.exe</td><td>首个安装包</td></tr><tr><td><code>…_v2.1.exe</code></td><td>317.8 MB</td><td>2026-08-14</td><td>工程设计AI大模型系统.exe (2.1.0)</td><td>含 8/13 系列改动（主题、报告规范、分界边拖动、秒停）</td></tr><tr><td><strong><code>…_v2.2.exe</code></strong></td><td><strong>647.4 MB</strong></td><td><strong>2026-08-19</strong></td><td>工程审图智能助理.exe</td><td><strong>当前交付版</strong>：随包带 ODA File Converter 与 Infinity-PDF-Parser，新电脑装完即具备完整工具链</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>安装包</th><th>体积</th><th>打包时间</th><th>主程序</th><th>说明</th></tr></thead><tbody><tr><td><code>…_v2.0.exe</code></td><td><code>317.7 MB</code></td><td><code>2026-08-12</code></td><td><code>工程设计AI大模型系统.exe</code></td><td>首个安装包</td></tr><tr><td><code>…_v2.1.exe</code></td><td><code>317.8 MB</code></td><td><code>2026-08-14</code></td><td><code>工程设计AI大模型系统.exe</code> (2.1.0)</td><td>含 8/13 系列改动（主题、报告规范、分界边拖动、秒停）</td></tr><tr><td><strong><code>…_v2.2.exe</code></strong></td><td><strong><code>647.4 MB</code></strong></td><td><strong><code>2026-08-19</code></strong></td><td><code>工程审图智能助理.exe</code></td><td><strong>当前交付版</strong>：随包带 ODA File Converter 与 Infinity-PDF-Parser，新电脑装完即具备完整工具链</td></tr></tbody></table></div>
 <p>v2.2 比 v2.1 多出来的 ~330 MB，主要就是 <code>tools\Infinity-PDF-Parser</code>（约 883 MB 的 PDF 解析引擎，压缩后入包）与 <code>tools\ODA_extract</code>（约 69 MB）。</p>
 <p><strong>关于版本时间线（重要）</strong></p>
 <ul><li>v2.2 安装包内的主程序 <code>工程审图智能助理.exe</code> 构建于 2026-08-10，是改名前的产物（窗口内品牌已更新，但文件名未换）；</li><li>项目目录中另有 <strong>2026-10-12</strong> 构建的新版主程序 <code>工程设计AI大模型系统.exe</code>，晚于 v2.2 打包时间，包含 10 月的新增能力（主模型多模态直读、提示词库自动加载流程）；</li><li>因此：<strong>要交付 10 月后的功能，需要重新打一次安装包</strong>，打包与发布由维护方负责；使用方安装现有 v2.2 即可。</li></ul>
